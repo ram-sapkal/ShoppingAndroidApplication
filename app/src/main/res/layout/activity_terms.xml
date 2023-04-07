@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".feedback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:text="Terms and policy"
+                android:textColor="#0327ED"
+                android:textSize="26dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read it carefully before explore."
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/barlogo"
+            android:layout_marginRight="12dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="A terms and conditions agreement outlines the rules that your website or mobile app users must follow. They usually cover topics such restricted behavior, payment terms, acceptable use, and more. Your use of the Platform and services and tools are governed by the following terms and conditions as applicable to the Platform including the applicable policies which are incorporated herein by way of reference. If You transact on the Platform, You shall be subject to the policies that are applicable to the Platform for such transaction. By mere use of the Platform, You shall be contracting with Barcode Internet Private Limited and these terms and conditions including the policies constitute Your binding obligations, with Barcode. If You use the Platform, You shall be responsible for maintaining the confidentiality of your Display Name and Password and You shall be responsible for all activities that occur under your Display Name and Password.
+Very Impoetrtant : No return policy available. If product found faulty, then you can exchange it within 7 days after delivery. After 7 days exchange of product is impossible."
+            android:textSize="14dp"
+
+            android:textColor="@color/black"
+            android:layout_marginLeft="12dp"/>
+
+            </LinearLayout>
+
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:backgroundTint="#0327ED"
+        android:layout_marginTop="24dp"
+        />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".itemDetail"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="12dp"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+
+            <TextView
+            android:id="@+id/item_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:layout_marginLeft="120dp"
+            android:textStyle="bold"
+            android:text="Shirt"
+                android:textColor="#0327ed"/>
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="130dp"
+                app:srcCompat="@drawable/homeblue"
+                android:layout_marginRight="12dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/item_image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ic_launcher_background" />
+                <ImageView
+                    android:layout_gravity="top|end"
+                    android:id="@+id/favBtnblank"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:visibility="visible"
+                    android:background="@drawable/like"
+                    />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_gravity="top|end"
+                    android:id="@+id/favBtnAni"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:visibility="invisible"
+                    app:lottie_autoPlay="false"
+                    app:lottie_loop="false"
+                    app:lottie_fileName="finalheart.json"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/item_Company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="24dp"
+                android:textColor="#2F0767"
+                android:textStyle="bold"
+                android:text="company" />
+
+            <TextView
+                android:id="@+id/item_cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textSize="18dp"
+                android:textColor="#0BBC54"
+                android:text="$ 34.0" />
+
+            <TextView
+                android:id="@+id/item_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textSize="18dp"
+                android:text="Woman T-shirt" />
+
+            <TextView
+                android:id="@+id/item_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textSize="18dp"
+                android:text="size" />
+
+            <LinearLayout
+                android:layout_marginTop="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buyNow"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buy Now"
+                    android:backgroundTint="#0327ed"/>
+                <Button
+                    android:id="@+id/addToCart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add to cart"
+                    android:backgroundTint="#0327ed"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+</LinearLayout>

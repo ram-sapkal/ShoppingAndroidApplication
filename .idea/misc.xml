@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/drawable-v24/border.xml" value="0.134" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/drawable-v24/ic_baseline_keyboard_arrow_right_24.xml" value="0.1705" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/drawable-v24/ic_search_black_24dp.xml" value="0.1705" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/drawable-v24/search_bg.xml" value="0.1345" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/drawable/ic_baseline_heart_broken_24.xml" value="0.1705" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_account.xml" value="0.22" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_account_settings.xml" value="0.22" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_address_details.xml" value="0.1921875" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_cart.xml" value="0.22" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_category.xml" value="0.22" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_deactivateacc.xml" value="0.2" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_feedback.xml" value="0.25" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_item_detail.xml" value="0.22" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_notification.xml" value="0.22" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_orders.xml" value="0.1921875" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_otp_send.xml" value="0.1921875" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_otp_verify.xml" value="0.1921875" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_payment.xml" value="0.1921875" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_profile_detail.xml" value="0.22" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_show_items.xml" value="0.1921875" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_singlemainc.xml" value="0.25" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_status.xml" value="0.1921875" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_terms.xml" value="0.25" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/activity_wishlist.xml" value="0.1921875" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/saddress.xml" value="0.25" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/single_cart_item.xml" value="0.33" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/single_cloth.xml" value="0.25" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/singlecategory.xml" value="0.22" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/layout/slider_layout.xml" value="0.1921875" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.159" />
+        <entry key="..\:/Users/ramja/AndroidStudioProjects/BarcodeShope/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.159" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

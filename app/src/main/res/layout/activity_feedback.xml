@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".feedback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/acme"
+                android:text="Feedback"
+                android:textColor="#0327ED"
+                android:textSize="26dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help us to improve and grow!"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/barlogo"
+            android:layout_marginRight="12dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How satisfied are you with our products/services?"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12dp"/>
+
+        <RadioGroup
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radioFirst">
+
+
+            <RadioButton
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="4dp"
+                android:text="Very satisfied"
+                android:textColor="@color/black"
+                android:textSize="14dp"/>
+            <RadioButton
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="4dp"
+                android:text="Satisfied"
+                android:textColor="@color/black"
+                android:textSize="14dp"/>
+            <RadioButton
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="4dp"
+                android:text="Dissatisfied"
+                android:textColor="@color/black"
+                android:textSize="14dp"/>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Were you able to find what you were looking for?"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12dp"/>
+        <RadioGroup
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/radioSecond">
+
+
+            <RadioButton
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="4dp"
+                android:text="Yes"
+                android:textColor="@color/black"
+                android:textSize="14dp"/>
+            <RadioButton
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="4dp"
+                android:text="No"
+                android:textColor="@color/black"
+                android:textSize="14dp"/>
+            <!--<RadioButton
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="4dp"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="14dp"/> -->
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Did we meet your expectations?"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12dp"/>
+
+        <RadioGroup
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:id="@+id/radioThird">
+
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="4dp"
+                android:text="Yes"
+                android:textColor="@color/black"
+                android:textSize="14dp"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="4dp"
+                android:text="No"
+                android:textColor="@color/black"
+                android:textSize="14dp"/>
+            <!--<RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="4dp"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="14dp"/>-->
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Any other suggestions?"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="12dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Type here..."
+        android:inputType="text|textMultiLine"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"/>
+
+    <Button
+        android:id="@+id/feedbackbtn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:backgroundTint="#0327ED"
+        />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:src="@drawable/blog"
+        android:layout_marginTop="32dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check out our fashion blogs."
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="14dp"
+        android:layout_marginTop="2dp"
+        />
+
+    <Button
+        android:id="@+id/backToSetting"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Blogs "
+        android:textColor="@color/white"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:backgroundTint="#0327ED"
+        android:layout_marginBottom="2dp"
+        />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Account"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="12dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu"
+                android:textColor="#0327ED"
+                android:textSize="26dp"
+                android:fontFamily="@font/acme"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explore different options."
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/barlogo"
+            android:layout_marginRight="12dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/trust"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="5dp">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trusted"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:layout_gravity="center|bottom"></TextView>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/fast"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="5dp">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Superfast"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:layout_gravity="center|bottom"></TextView>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/distribution"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="5dp">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Easy return"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_gravity="center|bottom"></TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="26dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/ic_outline_account_circle_24"
+            android:paddingRight="2dp"/>
+        <TextView
+
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account"
+            android:textSize="26dp"
+            android:paddingLeft="4dp"
+            android:fontFamily="@font/acme"
+            android:textColor="#0327ED"
+            android:layout_marginTop="6dp"
+            />
+        <Button
+            android:id="@+id/accountBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:backgroundTint="#0327ED"
+            android:layout_marginLeft="1dp"/>
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in to access your account !"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:layout_marginLeft="12dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#0327ED"
+        android:layout_marginTop="24dp"
+        android:layout_margin="12dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp">
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/ic_outline_question_answer_24"
+            android:paddingRight="2dp"/>
+        <TextView
+
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FAQs ?"
+            android:textSize="26dp"
+            android:paddingLeft="4dp"
+            android:fontFamily="@font/acme"
+            android:textColor="#0327ED"
+            android:layout_marginTop="6dp"
+            />
+        <Button
+            android:id="@+id/faqBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="info"
+            android:backgroundTint="#0327ED"
+            android:layout_marginLeft="12dp"/>
+
+    </LinearLayout>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on info to know about us."
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:layout_marginLeft="12dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#0327ED"
+        android:layout_marginTop="24dp"
+        android:layout_margin="12dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp">
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/ic_outline_language_24"
+            android:paddingRight="2dp"/>
+        <TextView
+
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:textSize="26dp"
+            android:paddingLeft="4dp"
+            android:fontFamily="@font/acme"
+            android:textColor="#0327ED"
+            android:layout_marginTop="6dp"
+            />
+        <Button
+            android:id="@+id/languagebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select"
+            android:backgroundTint="#0327ED"
+            android:layout_marginLeft="12dp"/>
+
+    </LinearLayout>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your preferred langauge"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:layout_marginLeft="12dp"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#0327ED"
+        android:layout_marginTop="24dp"
+        android:layout_margin="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="14dp">
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/ic_outline_policy_24"
+            android:paddingRight="2dp"/>
+        <TextView
+
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms"
+            android:textSize="26dp"
+            android:paddingLeft="4dp"
+            android:fontFamily="@font/acme"
+            android:textColor="#0327ED"
+            android:layout_marginTop="6dp"
+            />
+        <Button
+            android:id="@+id/termsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read"
+            android:backgroundTint="#0327ED"
+            android:layout_marginLeft="12dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read all necessary terms and policies"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:layout_marginLeft="12dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="#0327ED"
+            android:layout_marginTop="24dp"
+            android:layout_margin="12dp"
+            tools:ignore="Suspicious0dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:id="@+id/home"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/home"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="Home"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:id="@+id/cate"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/search"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="Categories"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:id="@+id/account"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/userblue"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="Account"
+                android:textColor="#0327ED"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:id="@+id/cart"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/cart"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="Cart"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
